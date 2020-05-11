@@ -14,6 +14,9 @@ TARGET_KERNEL_CONFIG := vendor/x1q_chn_openx_defconfig
 TARGET_KERNEL_VARIANT_CONFIG := vendor/variant_x1q_chn_openx_defconfig
 KERNEL_LD := DEBUG_DEFCONFIG=vendor/aosp_defconfig
 
+# Bluetooth
+BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := $(DEVICE_PATH)/bluetooth/include
+
 # Display
 TARGET_SCREEN_DENSITY := 640
 
