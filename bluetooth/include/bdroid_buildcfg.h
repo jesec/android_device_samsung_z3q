@@ -8,4 +8,6 @@
 
 #define BLE_VND_INCLUDED TRUE
 
+#define DISABLE_WBS TRUE
+
 #endif // _BDROID_BUILDCFG_H
