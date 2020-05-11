@@ -6,4 +6,6 @@
 
 #define BTM_DEF_LOCAL_NAME "Galaxy S20"
 
+#define BLE_VND_INCLUDED TRUE
+
 #endif // _BDROID_BUILDCFG_H
