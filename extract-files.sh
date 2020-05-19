@@ -11,7 +11,7 @@ fi
 set -e
 
 # Required!
-export DEVICE=x1q
+export DEVICE=z3q
 export DEVICE_COMMON=sm8250-common
 export VENDOR=samsung
 
